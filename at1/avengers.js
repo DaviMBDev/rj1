@@ -150,8 +150,8 @@ function comparaPersonagem(){
             console.log(p2.descricao)
 
             console.log("Comparação entre "+p1.codinome+" e "+p2.codinome+":")
-            console.log(p1.codinome+" Poder médio "+poderP1.toFixed(2))
-            console.log(p2.codinome+" Poder médio "+poderP2.toFixed(2))
+            console.log(p1.codinome+" Poder médio "+poderP1)
+            console.log(p2.codinome+" Poder médio "+poderP2)
 
             if (poderP1 > poderP2){
                 console.log(p1.codinome+" vence!")
